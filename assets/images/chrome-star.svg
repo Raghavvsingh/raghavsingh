@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" fill="none">
+  <defs>
+    <!-- Drop Shadow / Ambient Glow -->
+    <filter id="starGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.8"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#ffffff" flood-opacity="0.25"/>
+    </filter>
+
+    <!-- Chrome Gradients for 8 Star Facets -->
+    <!-- Top-Right Upper -->
+    <linearGradient id="facetTRU" x1="80" y1="80" x2="80" y2="10" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4a4e58"/>
+      <stop offset="45%" stop-color="#d8dde6"/>
+      <stop offset="70%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#8a909c"/>
+    </linearGradient>
+
+    <!-- Top-Right Lower -->
+    <linearGradient id="facetTRL" x1="80" y1="80" x2="150" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2a2d34"/>
+      <stop offset="40%" stop-color="#7e8594"/>
+      <stop offset="80%" stop-color="#c5cbd6"/>
+      <stop offset="100%" stop-color="#555a64"/>
+    </linearGradient>
+
+    <!-- Bottom-Right Upper -->
+    <linearGradient id="facetBRU" x1="80" y1="80" x2="150" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5a606d"/>
+      <stop offset="35%" stop-color="#f0f3f8"/>
+      <stop offset="65%" stop-color="#888f9e"/>
+      <stop offset="100%" stop-color="#2b2d33"/>
+    </linearGradient>
+
+    <!-- Bottom-Right Lower -->
+    <linearGradient id="facetBRL" x1="80" y1="80" x2="80" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1f2228"/>
+      <stop offset="50%" stop-color="#505662"/>
+      <stop offset="85%" stop-color="#b0b7c4"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+
+    <!-- Bottom-Left Lower -->
+    <linearGradient id="facetBLL" x1="80" y1="80" x2="80" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#464a54"/>
+      <stop offset="40%" stop-color="#e0e4ec"/>
+      <stop offset="75%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#7a808e"/>
+    </linearGradient>
+
+    <!-- Bottom-Left Upper -->
+    <linearGradient id="facetBLU" x1="80" y1="80" x2="10" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#23262c"/>
+      <stop offset="45%" stop-color="#727885"/>
+      <stop offset="80%" stop-color="#bcc2cd"/>
+      <stop offset="100%" stop-color="#3c4049"/>
+    </linearGradient>
+
+    <!-- Top-Left Lower -->
+    <linearGradient id="facetTLL" x1="80" y1="80" x2="10" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#525763"/>
+      <stop offset="30%" stop-color="#f8faff"/>
+      <stop offset="65%" stop-color="#939aa7"/>
+      <stop offset="100%" stop-color="#31343a"/>
+    </linearGradient>
+
+    <!-- Top-Left Upper -->
+    <linearGradient id="facetTLU" x1="80" y1="80" x2="80" y2="10" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1c1e22"/>
+      <stop offset="50%" stop-color="#585e6b"/>
+      <stop offset="85%" stop-color="#d4d9e2"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+
+    <!-- Center Glint -->
+    <radialGradient id="centerGlint" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g filter="url(#starGlow)" transform="rotate(8 80 80)">
+    <!-- 8 Facets meeting at center (80, 80) -->
+    <!-- Tips: Top (80, 12), Right (148, 80), Bottom (80, 148), Left (12, 80) -->
+    <!-- Inner Indents: (96, 64), (96, 96), (64, 96), (64, 64) -->
+
+    <!-- Top-Right Tip Facets -->
+    <path d="M 80 80 L 80 12 L 96 64 Z" fill="url(#facetTRU)" />
+    <path d="M 80 80 L 96 64 L 148 80 Z" fill="url(#facetTRL)" />
+
+    <!-- Bottom-Right Tip Facets -->
+    <path d="M 80 80 L 148 80 L 96 96 Z" fill="url(#facetBRU)" />
+    <path d="M 80 80 L 96 96 L 80 148 Z" fill="url(#facetBRL)" />
+
+    <!-- Bottom-Left Tip Facets -->
+    <path d="M 80 80 L 80 148 L 64 96 Z" fill="url(#facetBLL)" />
+    <path d="M 80 80 L 64 96 L 12 80 Z" fill="url(#facetBLU)" />
+
+    <!-- Top-Left Tip Facets -->
+    <path d="M 80 80 L 12 80 L 64 64 Z" fill="url(#facetTLL)" />
+    <path d="M 80 80 L 64 64 L 80 12 Z" fill="url(#facetTLU)" />
+
+    <!-- Ridge Highlights -->
+    <line x1="80" y1="80" x2="80" y2="12" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity="0.8"/>
+    <line x1="80" y1="80" x2="148" y2="80" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity="0.8"/>
+    <line x1="80" y1="80" x2="80" y2="148" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+    <line x1="80" y1="80" x2="12" y2="80" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- Center Specular Flash -->
+    <circle cx="80" cy="80" r="14" fill="url(#centerGlint)"/>
+  </g>
+</svg>

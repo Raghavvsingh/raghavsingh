@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Raghav" />
+  <title>Raghav. — Software Engineer & AI Builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;600;700&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=16" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  NAVBAR                                                -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">RAGHAV.</div>
+    <ul class="nav-links">
+      <li><a href="#about" id="nav-about">ABOUT</a></li>
+      <li><a href="#skills" id="nav-skills">SKILLS</a></li>
+      <li><a href="#experience" id="nav-experience">EXPERIENCE</a></li>
+      <li><a href="#projects" id="nav-projects">PROJECTS</a></li>
+      <li><a href="https://drive.google.com/file/d/1jIgwSNZbvmlvEjq6hXlDpK40QHL6f-Sy/view?usp=sharing" target="_blank" rel="noopener noreferrer" id="nav-resume">RESUME</a></li>
+      <li><a href="#contact" id="nav-contact">CONTACT</a></li>
+    </ul>
+    <div class="nav-socials">
+      <a href="mailto:raghav.s2105@gmail.com" class="nav-social-link" aria-label="Email" title="raghav.s2105@gmail.com">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com/in/raghav-singh2105/" target="_blank" rel="noopener noreferrer" class="nav-social-link" aria-label="LinkedIn" title="LinkedIn">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+          <rect x="2" y="9" width="4" height="12"></rect>
+          <circle cx="4" cy="4" r="2"></circle>
+        </svg>
+      </a>
+      <a href="https://github.com/Raghavvsingh" target="_blank" rel="noopener noreferrer" class="nav-social-link" aria-label="GitHub" title="GitHub">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+          <path d="M9 18c-4.51 2-5-2-7-2"></path>
+        </svg>
+      </a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  HERO SECTION                                          -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <section class="hero" id="home">
+    <!-- Subtle Grid Overlay -->
+    <div class="hero-grid-bg"></div>
+
+    <!-- Cosmic Orbit Curves SVG -->
+    <svg class="hero-orbits-svg" viewBox="0 0 1600 900" fill="none" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="orbitGlowPink" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#e8357a" stop-opacity="1"/>
+          <stop offset="60%" stop-color="#e8357a" stop-opacity="0.4"/>
+          <stop offset="100%" stop-color="#e8357a" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="orbitGlowOrange" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#f97c1e" stop-opacity="1"/>
+          <stop offset="60%" stop-color="#f97c1e" stop-opacity="0.4"/>
+          <stop offset="100%" stop-color="#f97c1e" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+
+      <!-- Elliptical Orbit 1 (Tilted Left) -->
+      <ellipse cx="800" cy="540" rx="430" ry="220" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1.2" transform="rotate(-18 800 540)" />
+
+      <!-- Elliptical Orbit 2 (Tilted Right) -->
+      <ellipse cx="800" cy="540" rx="460" ry="240" stroke="rgba(233, 53, 122, 0.14)" stroke-width="1.2" transform="rotate(22 800 540)" />
+
+      <!-- Sweeping Ambient Trajectory Curve -->
+      <path d="M 50 630 C 350 480, 520 740, 800 540 C 1080 340, 1350 580, 1550 320" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1.2" stroke-dasharray="4 4" />
+
+      <!-- Cosmic Node Dots (Glowing) -->
+      <!-- Left Pink Node Dot -->
+      <circle cx="100" cy="580" r="14" fill="url(#orbitGlowPink)"/>
+      <circle cx="100" cy="580" r="4.5" fill="#e8357a"/>
+
+      <!-- Lower Left Soft Dot -->
+      <circle cx="210" cy="910" r="12" fill="url(#orbitGlowPink)"/>
+      <circle cx="210" cy="910" r="3.5" fill="#e8357a"/>
+
+      <!-- Right Orange Node Dot -->
+      <circle cx="1490" cy="380" r="14" fill="url(#orbitGlowOrange)"/>
+      <circle cx="1490" cy="380" r="4.5" fill="#f97c1e"/>
+    </svg>
+
+    <!-- Warm Radial Halo Glow behind Head -->
+    <div class="hero-halo-glow"></div>
+    <div class="hero-halo-glow-core"></div>
+
+    <!-- Title & Subtitle Wrapper -->
+    <div class="hero-title-wrapper">
+      <h1 class="hero-title">HI, I'M RAGHAV</h1>
+      <p class="hero-subtext">SOFTWARE ENGINEER &nbsp;•&nbsp; AGENTIC AI &nbsp;•&nbsp; FULL STACK DEVELOPER</p>
+    </div>
+
+    <!-- Center Avatar -->
+    <div class="hero-avatar-wrapper">
+      <div class="hero-avatar-float">
+        <img src="assets/images/RS-removebg-preview.png" alt="Raghav 3D Avatar" class="hero-avatar" id="hero-avatar" />
+      </div>
+    </div>
+
+    <!-- Floating Glowing Pills & Elements -->
+    <div class="hero-floating-elements">
+      <!-- Pill 1: Top Left -->
+      <div class="hero-pill pill-ai">AGENTIC AI</div>
+
+      <!-- Pill 2: Bottom Left -->
+      <div class="hero-pill pill-fullstack">FULL-STACK</div>
+
+      <!-- Pill 3: Top Right -->
+      <div class="hero-pill pill-problem">LLM SYSTEMS</div>
+
+      <!-- Pill 4: Bottom Right -->
+      <div class="hero-pill pill-products">AI AUTOMATION</div>
+
+      <!-- 3D Chrome Star (Left) -->
+      <div class="hero-element-float element-star-wrap">
+        <img src="assets/images/star_landingPage.png" alt="3D Chrome Star" class="hero-chrome-star" />
+      </div>
+
+      <!-- 3D Chrome Torus (Right) -->
+      <div class="hero-element-float element-torus-wrap">
+        <img src="assets/images/ring_landing page.png" alt="3D Chrome Ring" class="hero-chrome-torus" />
+      </div>
+
+      <!-- Doodle Note Left -->
+      <div class="hero-doodle doodle-left">
+        <span class="doodle-text">Ideas<br>to<br>Products</span>
+        <svg class="doodle-arrow arrow-left" viewBox="0 0 90 60" fill="none">
+          <path d="M 15 45 C 45 42, 68 32, 75 14" stroke="rgba(255,255,255,0.72)" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+          <path d="M 62 16 L 76 13 L 73 26" stroke="rgba(255,255,255,0.72)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        </svg>
+      </div>
+
+      <!-- Doodle Note Right -->
+      <div class="hero-doodle doodle-right">
+        <span class="doodle-text">Always<br>Building</span>
+        <svg class="doodle-arrow arrow-right" viewBox="0 0 90 80" fill="none">
+          <path d="M 70 12 C 55 35, 42 55, 18 58" stroke="rgba(255,255,255,0.72)" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+          <path d="M 22 44 L 16 60 L 32 60" stroke="rgba(255,255,255,0.72)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Bottom Right Contact Me Button -->
+    <a href="#contact" class="hero-contact-btn" id="hero-contact-btn">
+      Contact me <span class="btn-arrow">↗</span>
+    </a>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  MARQUEE / TICKER                                      -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="marquee-section" aria-hidden="true">
+    <div class="marquee-track">
+      <div class="marquee-content">
+        <span>SOFTWARE ENGINEERING</span><span class="star">★</span>
+        <span>AGENTIC AI</span><span class="star">★</span>
+        <span>FULL-STACK DEVELOPMENT</span><span class="star">★</span>
+        <span>MULTI-AGENT SYSTEMS</span><span class="star">★</span>
+        <span>PROBLEM SOLVING</span><span class="star">★</span>
+        <span>PRODUCT BUILDING</span><span class="star">★</span>
+        <span>LLMs</span><span class="star">★</span>
+        <span>SOFTWARE ENGINEERING</span><span class="star">★</span>
+        <span>AGENTIC AI</span><span class="star">★</span>
+        <span>FULL-STACK DEVELOPMENT</span><span class="star">★</span>
+        <span>MULTI-AGENT SYSTEMS</span><span class="star">★</span>
+        <span>PROBLEM SOLVING</span><span class="star">★</span>
+        <span>PRODUCT BUILDING</span><span class="star">★</span>
+        <span>LLMs</span><span class="star">★</span>
+      </div>
+      <div class="marquee-content" aria-hidden="true">
+        <span>SOFTWARE ENGINEERING</span><span class="star">★</span>
+        <span>AGENTIC AI</span><span class="star">★</span>
+        <span>FULL-STACK DEVELOPMENT</span><span class="star">★</span>
+        <span>MULTI-AGENT SYSTEMS</span><span class="star">★</span>
+        <span>PROBLEM SOLVING</span><span class="star">★</span>
+        <span>PRODUCT BUILDING</span><span class="star">★</span>
+        <span>LLMs</span><span class="star">★</span>
+        <span>SOFTWARE ENGINEERING</span><span class="star">★</span>
+        <span>AGENTIC AI</span><span class="star">★</span>
+        <span>FULL-STACK DEVELOPMENT</span><span class="star">★</span>
+        <span>MULTI-AGENT SYSTEMS</span><span class="star">★</span>
+        <span>PROBLEM SOLVING</span><span class="star">★</span>
+        <span>PRODUCT BUILDING</span><span class="star">★</span>
+        <span>LLMs</span><span class="star">★</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  ABOUT SECTION                                         -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <section class="about" id="about">
+    <img src="assets/images/abstract_figure.jpg" alt="3D Chrome Abstract Figure" class="deco deco-chrome-abstract" />
+    <img src="assets/images/rings.jpg" alt="3D Chrome Interlocking Rings" class="deco deco-chrome-double-ring" />
+    <img src="assets/images/star_landingPage.png" alt="3D Chrome Star" class="deco deco-chrome-star-about" />
+    <img src="assets/images/Ring.jpg" alt="3D Chrome Ring" class="deco deco-chrome-ring" />
+
+    <div class="about-content">
+      <h2 class="section-title-outline">ABOUT ME</h2>
+
+      <div class="about-text">
+        <p>
+          I'm a Software Engineer and AI Builder passionate about turning ideas
+          into intelligent, real-world products.
+        </p>
+
+        <p>
+          From AI agents and generative AI to full-stack applications, I enjoy
+          exploring new technologies, solving meaningful problems, and building
+          things that make a difference.
+        </p>
+
+        <p class="about-cta">
+          <strong>Always curious. Always building. Never done exploring.</strong>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  SKILLS SECTION                                        -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <section class="skills-section" id="skills">
+    <h2 class="section-title-outline skills-heading">SKILLS</h2>
+    <p class="skills-subtitle">TECH STACK & EXPERTISE</p>
+
+    <div class="skills-grid">
+
+      <!-- Languages -->
+      <div class="skill-card">
+        <div class="skill-card-inner">
+          <div class="skill-card-front">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg" alt="Python" width="52" height="52" />
+          </div>
+          <div class="skill-card-back"><span>Python</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-inner">
+          <div class="skill-card-front">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg" alt="JavaScript" width="52" height="52" />
+          </div>
+          <div class="skill-card-back"><span>JavaScript</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-inner">
+          <div class="skill-card-front">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/cplusplus/cplusplus-original.svg" alt="C++" width="52" height="52" />
+          </div>
+          <div class="skill-card-back"><span>C++</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-inner">
+          <div class="skill-card-front">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" alt="SQL" width="52" height="52" />
+          </div>
+          <div class="skill-card-back"><span>SQL</span></div>
+        </div>
+      </div>
+
+      <!-- Web & Backend -->
+      <div class="skill-card">
+        <div class="skill-card-inner">
+          <div class="skill-card-front">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg" alt="React" width="52" height="52" />
+          </div>
+          <div class="skill-card-back"><span>React.js</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-inner">
+          <div class="skill-card-front">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nodejs/nodejs-original.svg" alt="Node.js" width="52" height="52" />
+          </div>
+          <div class="skill-card-back"><span>Node.js</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-inner">
+          <div class="skill-card-front">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="52" height="52" />
+          </div>
+          <div class="skill-card-back"><span>FastAPI</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-inner">
+          <div class="skill-card-front">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/express/express-original.svg" alt="Express" width="52" height="52" style="filter: invert(1);" />
+          </div>
+          <div class="skill-card-back"><span>Express.js</span></div>
+        </div>
+      </div>
+
+      <!-- AI / ML -->
+      <div class="skill-card">
+        <div class="skill-card-inner">
+          <div class="skill-card-front">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="52" height="52" />
+          </div>
+          <div class="skill-card-back"><span>TensorFlow</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-inner">
+          <div class="skill-card-front">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/opencv/opencv-original.svg" alt="OpenCV" width="52" height="52" />
+          </div>
+          <div class="skill-card-back"><span>OpenCV</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-inner">
+          <div class="skill-card-front">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/pandas/pandas-original.svg" alt="Pandas" width="52" height="52" />
+          </div>
+          <div class="skill-card-back"><span>Pandas</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-inner">
+          <div class="skill-card-front">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/numpy/numpy-original.svg" alt="NumPy" width="52" height="52" />
+          </div>
+          <div class="skill-card-back"><span>NumPy</span></div>
+        </div>
+      </div>
+
+      <!-- Tools & Platforms -->
+      <div class="skill-card">
+        <div class="skill-card-inner">
+          <div class="skill-card-front">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/git/git-original.svg" alt="Git" width="52" height="52" />
+          </div>
+          <div class="skill-card-back"><span>Git</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-inner">
+          <div class="skill-card-front">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/github/github-original.svg" alt="GitHub" width="52" height="52" style="filter: invert(1);" />
+          </div>
+          <div class="skill-card-back"><span>GitHub</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-inner">
+          <div class="skill-card-front">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/docker/docker-original.svg" alt="Docker" width="52" height="52" />
+          </div>
+          <div class="skill-card-back"><span>Docker</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-inner">
+          <div class="skill-card-front">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" width="52" height="52" />
+          </div>
+          <div class="skill-card-back"><span>Kubernetes</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  EXPERIENCE SECTION                                    -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <section class="experience-section" id="experience">
+    <h2 class="section-title-outline experience-heading">EXPERIENCE</h2>
+
+    <div class="experience-container">
+      <article class="experience-card">
+        <div class="experience-header">
+          <div class="experience-title-group">
+            <span class="experience-badge">INTERNSHIP</span>
+            <h3 class="experience-role">AI Product Development Intern</h3>
+            <p class="experience-company">Tesseris Inc.</p>
+          </div>
+          <span class="experience-duration">April 2026 – August 2026</span>
+        </div>
+
+        <div class="experience-tags">
+          <span>Software Development</span>
+          <span>Agentic AI</span>
+          <span>Docker &amp; Kubernetes</span>
+          <span>Prompt Engineering</span>
+          <span>API Integrations</span>
+          <span>Workflow Validation</span>
+        </div>
+
+        <ul class="experience-list">
+          <li>
+            <span class="exp-bullet-dot"></span>
+            <p>Developed AI product features and resolved engineering tasks, contributing to <strong>6+ application modules</strong> through API integrations, workflow validation, and frontend/backend testing.</p>
+          </li>
+          <li>
+            <span class="exp-bullet-dot"></span>
+            <p>Designed, tested, and optimized <strong>10+ AI-powered product workflows</strong> through prompt engineering, workflow validation, UI/UX quality assurance, and response analysis across agentic AI applications.</p>
+          </li>
+          <li>
+            <span class="exp-bullet-dot"></span>
+            <p>Identified and resolved <strong>50+ issues</strong> to improve system reliability, contextual accuracy, and overall user experience.</p>
+          </li>
+          <li>
+            <span class="exp-bullet-dot"></span>
+            <p>Delivered SEO optimization, Market Insights content, and feature benchmarking, alongside application development within <strong>Docker- and Kubernetes-based</strong> infrastructure in an Agile delivery environment.</p>
+          </li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  PROJECTS SECTION                                      -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <section class="projects" id="projects">
+    <h2 class="section-title-outline projects-heading">PROJECTS</h2>
+
+    <div class="projects-grid">
+
+      <!-- Project 01 -->
+      <article class="project-box">
+        <div class="project-box-header">
+          <div>
+            <span class="project-badge">AGENTIC AI</span>
+            <h3 class="project-title">OrchestAI</h3>
+            <p class="project-subtitle">Multi-Agent Task Orchestration System</p>
+          </div>
+          <span class="project-num">01</span>
+        </div>
+
+        <div class="project-tags">
+          <span>Python</span>
+          <span>React</span>
+          <span>OpenAI</span>
+          <span>Task Graphs</span>
+          <span>Multi-Agent</span>
+        </div>
+
+        <ul class="project-bullets">
+          <li>
+            <span class="exp-bullet-dot"></span>
+            <p>Designed a multi-agent system architecture (planner, executor, validator) handling <strong>50+ task workflows</strong>.</p>
+          </li>
+          <li>
+            <span class="exp-bullet-dot"></span>
+            <p>Implemented task graphs, dependency management, inter-agent communication, retry mechanisms, and validation loops, improving task success rate by <strong>35%</strong> and reducing execution failures by <strong>20%</strong>.</p>
+          </li>
+        </ul>
+      </article>
+
+      <!-- Project 02 -->
+      <article class="project-box">
+        <div class="project-box-header">
+          <div>
+            <span class="project-badge">DATA &amp; ANALYTICS</span>
+            <h3 class="project-title">Employee Wellness EDA</h3>
+            <p class="project-subtitle">Statistical Analysis &amp; Workplace Modeling</p>
+          </div>
+          <span class="project-num">02</span>
+        </div>
+
+        <div class="project-tags">
+          <span>Python</span>
+          <span>SQL</span>
+          <span>Pandas</span>
+          <span>Statistical Analysis</span>
+          <span>EDA</span>
+        </div>
+
+        <ul class="project-bullets">
+          <li>
+            <span class="exp-bullet-dot"></span>
+            <p>Cleaned and standardized <strong>1,048 records</strong> across <strong>27 attributes</strong>, engineering <strong>7 KPI indices</strong> to quantify workplace well-being from raw data.</p>
+          </li>
+          <li>
+            <span class="exp-bullet-dot"></span>
+            <p>Conducted <strong>3-level exploratory analysis</strong> (univariate, bivariate, multivariate) using correlation heatmaps and KDE/violin plots, isolating work interference and family history as key predictors.</p>
+          </li>
+        </ul>
+      </article>
+
+      <!-- Project 03 -->
+      <article class="project-box">
+        <div class="project-box-header">
+          <div>
+            <span class="project-badge">AI/ML</span>
+            <h3 class="project-title">AABHAS</h3>
+            <p class="project-subtitle">Early Warning Intelligence System for Surveillance</p>
+          </div>
+          <span class="project-num">03</span>
+        </div>
+
+        <div class="project-tags">
+          <span>Python</span>
+          <span>NumPy</span>
+          <span>OpenCV</span>
+          <span>LSTM-VAE</span>
+          <span>EWMA</span>
+        </div>
+
+        <ul class="project-bullets">
+          <li>
+            <span class="exp-bullet-dot"></span>
+            <p>Built an unsupervised LSTM-VAE deep learning pipeline on <strong>1,000+ video frames</strong> to detect behavioral drift.</p>
+          </li>
+          <li>
+            <span class="exp-bullet-dot"></span>
+            <p>Developed a real-time drift detection engine using motion and temporal features, EWMA, and Threat Deviation Index (TDI), reducing false positives by <strong>30%</strong> and improving latency by <strong>20%</strong>.</p>
+          </li>
+        </ul>
+      </article>
+
+      <!-- Project 04 -->
+      <article class="project-box">
+        <div class="project-box-header">
+          <div>
+            <span class="project-badge">NLP &amp; MACHINE LEARNING</span>
+            <h3 class="project-title">JobFit AI</h3>
+            <p class="project-subtitle">Resume Screening &amp; Matching System</p>
+          </div>
+          <span class="project-num">04</span>
+        </div>
+
+        <div class="project-tags">
+          <span>Python</span>
+          <span>Scikit-learn</span>
+          <span>NLP</span>
+          <span>Semantic Similarity</span>
+        </div>
+
+        <ul class="project-bullets">
+          <li>
+            <span class="exp-bullet-dot"></span>
+            <p>Built an NLP-based resume-job matching system processing <strong>100+ resumes</strong> using skill extraction, normalization, and semantic similarity with Scikit-learn.</p>
+          </li>
+          <li>
+            <span class="exp-bullet-dot"></span>
+            <p>Generated role-fit, skill-gap, and ATS compatibility scores, improving matching accuracy by <strong>25%</strong> and reducing recruiter screening time by <strong>35%</strong>.</p>
+          </li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  CONTACT SECTION                                       -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <section class="contact-section" id="contact">
+    <div class="contact-card">
+      <img src="assets/images/PurpleFlower.png" alt="Purple flower decoration" class="contact-flower" />
+
+      <div class="contact-left">
+        <h2 class="contact-heading">LET'S<br />GET IN<br />TOUCH</h2>
+        <p class="contact-sub">
+          Got a project in mind? Drop a message and let's <span class="contact-link">build</span><br />something memorable.
+        </p>
+      </div>
+
+      <form class="contact-form" id="contact-form" action="https://formsubmit.co/raghav.s2105@gmail.com" method="POST" onsubmit="handleSubmit(event)">
+        <!-- FormSubmit Configuration -->
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_subject" value="New Message from Raghav's Portfolio!" />
+
+        <div class="form-row">
+          <div class="form-field">
+            <input type="text" id="contact-name" name="name" placeholder="Name" required />
+            <span class="form-line"></span>
+          </div>
+          <div class="form-field">
+            <input type="email" id="contact-email" name="email" placeholder="Email" required />
+            <span class="form-line"></span>
+          </div>
+        </div>
+        <div class="form-field">
+          <input type="text" id="contact-subject" name="subject" placeholder="Subject" required />
+          <span class="form-line"></span>
+        </div>
+        <div class="form-field">
+          <textarea id="contact-message" name="message" placeholder="Message" rows="3" required></textarea>
+          <span class="form-line"></span>
+        </div>
+        <button type="submit" class="btn-gradient" id="contact-submit">
+          Send message
+          <span class="btn-arrow">↗</span>
+        </button>
+        <p class="contact-status" id="contact-status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--  FOOTER                                                -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <span class="footer-brand">RAGHAV.</span>
+    <span class="footer-copy">© 2026 All rights reserved.</span>
+    <div class="footer-socials">
+      <a href="mailto:raghav.s2105@gmail.com" class="footer-social-link" aria-label="Email" title="raghav.s2105@gmail.com">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com/in/raghav-singh2105/" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="LinkedIn" title="LinkedIn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+          <rect x="2" y="9" width="4" height="12"></rect>
+          <circle cx="4" cy="4" r="2"></circle>
+        </svg>
+      </a>
+      <a href="https://github.com/Raghavvsingh" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="GitHub" title="GitHub">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+          <path d="M9 18c-4.51 2-5-2-7-2"></path>
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v=2"></script>
+</body>
+</html>
